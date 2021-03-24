@@ -1,0 +1,38 @@
+# Configuration file
+.env
+.env.dusk.*
+# Webpack builds
+/public/mix-manifest.json
+/public/css/app.*
+/public/css/vendor.css
+/public/js/app.*
+/public/js/vendor.*
+/public/js/manifest.*
+/public/fonts
+/public/images
+/public/hot
+/public/*.js
+/public/*.js.map
+/public/vendor/horizon/
+/public/vendor/telescope/
+# Storage
+/public/storage
+/public/media
+/storage/*.key
+# 3rd party libs
+/vendor
+/node_modules
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+.php_cs.cache
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+# IDE related files
+_ide_helper.php
+.phpstorm.meta.php
+!*/**/.gitkeep
+*/**/.DS_Store
